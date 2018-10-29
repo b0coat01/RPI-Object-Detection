@@ -31,8 +31,8 @@ Additional bounding boxes are returned for N-number of objects contained within 
 
 ## Package Dependency
 This project is based on the following packages:
-- Python 2.7
-- OpenCV 2.0
+- Python 3.5
+- OpenCV 3.3
 - TensorFlow
 
 
