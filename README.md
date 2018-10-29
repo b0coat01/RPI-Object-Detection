@@ -14,7 +14,8 @@ Test the RPi and OpenCV environment. You are expected to see video streams from 
 Track an object based on its color (green/blue) and print its center position.
 ![alt text](./doc/thresh_objects.png)
 
-The output of the algorithm is a bounding box around the reference object detected along with the N-number of objects contained within the reference object's ROI.
+The output of the algorithm is a bounding box around the reference object detected.
+Additional bounding boxes are returned for N-number of objects contained within the reference object's ROI.
 ![alt text](./doc/frame.png)
 
 ## How to Run
