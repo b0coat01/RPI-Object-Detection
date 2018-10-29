@@ -43,3 +43,18 @@ This project is based on the following packages:
 - The official camera module is **NOT** supported by this code, but you can modify the code to use it (Google Raspberry Pi Offical Camera with OpenCV). In the future I will add support.
 
 
+
+
+
+
+
+
+
+
+
+
+Brandon Coats
+
+brandoncoats@tgautomation.tech
+
+http://www.tgautomation.tech
