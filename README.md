@@ -8,18 +8,14 @@ Currently I have implemented the following applications:
 ### 1. Camera Test
 Test the RPi and OpenCV environment. You are expected to see video streams from your USB camera if everything is set right.
 
-![alt text](./doc/cv_camera_test.jpg)
+![alt text](./doc/Cart_Load17.jpg)
 
-### 2. Motion Detection
-Detect object movements in the image and print a warning message if any movement is detected. This detection is based on the mean squared error (MSE) of the difference between two images.
-
-### 3. Object Tracking (color)
+### 2. Object Tracking (color)
 Track an object based on its color (green/blue) and print its center position.
-![alt text](./doc/cv_object_tracking.jpg)
+![alt text](./doc/thresh_objects.png)
 
-### 4. Object Tracking (feature)
-Track an object based on its efeature. Sample images have to be provided.
-
+The output of the algorithm is a bounding box around the reference object detected along with the N-number of objects contained within the reference object's ROI.
+![alt text](./doc/frame.png)
 
 ## How to Run
 1. Install the environment on a Raspberry Pi:
